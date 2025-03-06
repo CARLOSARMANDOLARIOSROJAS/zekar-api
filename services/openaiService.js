@@ -3,8 +3,6 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 import * as XLSX from "xlsx";
 import fs from "fs";
 
-// Instancia con la API Key
-// const genAI = new GoogleGenerativeAI("AIzaSyBJvFgzlS69EMu3m0w9d-fo0k-BZATvkcY");
 
 const genAI = new GoogleGenerativeAI(process.env.GEMAI_API_KEY);
 
